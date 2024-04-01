@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Focus Timer 2.0</title>
+</head>
+<body>
+    <div class="app flex">
+        <section id="main-timer">
+            <div id="timer">
+                <span id="minutes">25</span>
+                <span id="colon">:</span>
+                <span id="seconds">00</span>
+            </div>
+            <div id="controls">
+                    <button data-action="toggleRunning" id="play" class="ph ph-play-circle"></button>
+                    <button data-action="toggleStop" id="pause" class="ph ph-pause-circle"></button>
+                    <button data-action="toggleReset" id="stop" class="ph ph-stop-circle"></button>
+                    <button data-action="toggleIncrease" id="plus" class="ph ph-plus-circle"></button>
+                    <button data-action="toggleDecrease" id="minus" class="ph ph-minus-circle"></button>
+            </div>
+        
+        </section>
+        
+
+        <section id="moodSection"  aria-label="Select mood music">
+            <div id = "mood">
+                <button aria-label="Play tree sounds" data-action="playTreeSounds"  id="forest" class="ph ph-tree"></button>
+                <button aria-label="Play rain sounds" data-action="playRainSounds" id="rain"class="ph ph-cloud-rain"></button>
+                <button aria-label="Play Coffe shop sounds" data-action="playCitySounds" id="store" class="ph ph-storefront"></button>
+                <button aria-label="Play fire sounds" data-action="playFireSounds" id="fire" class="ph ph-fire-simple"></button>
+            </div>
+        </section>
+        
+    </div>
+</body>
+
+<script type="module" src="./javascript/main.js"></script>
+</html>

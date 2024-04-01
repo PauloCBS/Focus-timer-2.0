@@ -1,0 +1,118 @@
+:root {
+    --f-color: #323238;
+    font-size: 62.5%;
+    --blue: #02799D;
+    --white--: #FFFFFF;
+
+}
+
+.active{
+
+    background-color: var(--blue-);
+    color: var(--white--);
+        
+}
+
+.hide {
+    display: none;
+}
+
+.flex{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5.2rem;
+}
+
+#timer span{
+    font-family: 'Roboto', sans-serif;
+    color: var(--f-color);
+}
+
+button{
+    border: none;
+    background-color: none;
+    
+}
+
+#mood{
+ display: flex;
+ align-items: center;
+ flex-wrap: wrap;
+ justify-content: center;
+ 
+
+}
+
+#controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+
+}
+
+#controls button{
+    background-color: var(--white--);
+    padding: 0px;
+    margin:0.7rem ;
+    width: 2rem;
+    font-size: 3rem;
+}
+
+
+
+
+ button{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    font-size: 52px;
+    background-color: #E1E1E6;
+    border-radius:  1.2rem;
+    height: 5rem;
+    margin: 0.1rem;
+    cursor: pointer;
+}
+
+
+
+/* controls */
+.running .ph-play-circle,
+html:not(.running) .ph-pause-circle,
+html:not(.running) .ph-stop-circle
+{
+    display:none;
+}
+
+.forestSong #forest {
+    background-color: var(--blue)
+}
+
+.raining #rain {
+    background-color: var(--blue)
+}
+
+.coffeeShop #store{
+    background-color: var(--blue)
+}
+
+.fireplace #fire{
+    background-color: var(--blue)
+}
+
+.blue{
+    background-color: var(--blue);
+}
